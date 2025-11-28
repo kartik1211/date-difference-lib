@@ -15,3 +15,6 @@ const { getDateDifference } = require('date-difference-lib');
 
 console.log(getDateDifference('2020-01-01', '2023-10-15'));  // Output: "3 years, 9 months, 14 days"
 console.log(getDateDifference('2022-05-05', '2023-05-06'));  // Output: "1 year, 1 day"
+
+
+[https://www.npmjs.com/package/date-difference-lib?activeTab=readme](https://www.npmjs.com/package/date-difference-lib) 
