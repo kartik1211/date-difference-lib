@@ -1,0 +1,11 @@
+{
+  "name": "date-difference-lib",
+  "version": "1.0.0",
+  "description": "The library calculates the difference in years, months, and days",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kartik Subramaniam",
+  "license": "ISC"
+}
