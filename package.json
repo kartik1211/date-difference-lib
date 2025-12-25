@@ -1,6 +1,6 @@
 {
   "name": "date-difference-lib",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "The library calculates the difference in years, months, and days",
   "main": "src/index.js",    
   "types": "src/index.d.ts", 
