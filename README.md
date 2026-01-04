@@ -50,5 +50,8 @@ console.log(getDateDifference('2024-01-01', '2023-01-01', { includeTime: true, i
 // "1 year, 0 months, 0 days, 0 hours, 0 minutes, 0 seconds"
 ```
 
+[npm-badge-png]: https://img.shields.io/npm/v/date-difference-lib.svg
+[package-url]: https://www.npmjs.com/package/date-difference-lib
+
 
 [https://www.npmjs.com/package/date-difference-lib?activeTab=readme](https://www.npmjs.com/package/date-difference-lib) 
