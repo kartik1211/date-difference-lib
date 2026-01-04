@@ -2,6 +2,8 @@
 
 This library provides a function to calculate the difference between two dates in years, months, and days.
 
+[![npm badge][npm-badge-png]][package-url]
+
 ## Installation
 
 To use this library in your project, you can install it via npm:
@@ -12,12 +14,13 @@ npm install date-difference-lib
 # Usage: 
 
 JS Project:
-
+```js
 const { getDateDifference } = require('date-difference-lib');
 console.log(getDateDifference("2023-01-01", "2024-01-01"));
+```
 
 React / Angular / Vue (TypeScript):
-
+```js
 import { getDateDifference } from 'date-difference-lib';
 
 const diff = getDateDifference("2023-01-01", "2024-01-01", { asObject: true });
@@ -27,9 +30,10 @@ console.log(diff.years); // 1
 console.log(getDateDifference('2020-01-01', '2023-10-15'));  // Output: "3 years, 9 months, 14 days"
 
 console.log(getDateDifference('2022-05-05', '2023-05-06'));  // Output: "1 year, 1 day"
+```
 
 # Accepted formats:
-
+```js
 getDateDifference(new Date(2024, 0, 1), new Date(2024, 1, 1));
 
 getDateDifference('2023-01-01', '2024-01-01', { utc: false });
@@ -41,6 +45,10 @@ getDateDifference(1704067200000, 1706745600000);
 
 // negative difference preserved
 getDateDifference('2024-01-01', '2023-01-01', { signed: true }); 
+
+console.log(getDateDifference('2024-01-01', '2023-01-01', { includeTime: true, includeZeroUnits: true }));
+// "1 year, 0 months, 0 days, 0 hours, 0 minutes, 0 seconds"
+```
 
 
 [https://www.npmjs.com/package/date-difference-lib?activeTab=readme](https://www.npmjs.com/package/date-difference-lib) 

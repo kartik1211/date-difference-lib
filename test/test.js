@@ -12,5 +12,8 @@ console.log(getDateDifference('2023-01-01', '2024-03-05', { asObject: true }));
 console.log(getDateDifference('2024-01-01', '2023-01-01', { signed: true }));
 // "-1 year"
 
+console.log(getDateDifference('2024-01-01', '2023-01-01', { includeTime: true, includeZeroUnits: true }));
+// "1 year, 0 months, 0 days, 0 hours, 0 minutes, 0 seconds"
+
 // Below will Throw Error
 console.log(getDateDifference('invalid', '2023-01-01'));
